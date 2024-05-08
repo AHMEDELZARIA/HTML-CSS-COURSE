@@ -1,0 +1,48 @@
+input {
+  font-family: Arial;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px; 
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: rgb(200, 200, 200);
+  margin-bottom: 12px;
+ }
+
+ input::placeholder {
+   color: gray;
+ }
+
+ .name-text-box {
+   width: 130px;
+ }
+
+ .email-text-box {
+   display: block;
+   width: 298px;
+ }
+
+ .sign-up-button {
+   font-size: 18px;
+   font-weight: bold;
+   background-color: rgb(28, 126, 224);
+   color: white;
+   width: 332px;
+   border: none;
+   border-radius: 8px;
+   padding-top: 14px;
+   padding-bottom: 14px;
+   cursor: pointer;
+   transition: opacity 0.15s;
+ }
+
+ .sign-up-button:hover {
+   opacity: 0.8;
+ }
+
+ .sign-up-button:active {
+   opacity: 0.65;
+ }

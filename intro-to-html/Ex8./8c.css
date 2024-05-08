@@ -1,0 +1,24 @@
+.google-logo {
+  display: block;
+  width: 200px;
+  margin-left: 167.5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.google-search-bar {
+  font-size: 16px;
+  width: 500px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+}
+
+.google-search-bar::placeholder {
+  color: rgb(137, 136, 136);
+}
