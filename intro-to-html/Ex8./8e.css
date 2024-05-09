@@ -20,7 +20,7 @@ input {
   padding-right: 18px;
   margin-bottom: 8px;
   outline: 2px solid transparent;
-  transition: outline 0.2s;
+  transition: outline 0.3s;
 }
 
 input:focus {

@@ -1,0 +1,55 @@
+.card {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.mutual-friends {
+  font-size: 16px;
+  color: gray;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+.add-friend-button {
+  margin-left: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(29, 120, 240);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+
+.add-friend-button:hover {
+  opacity: 0.8;
+}
+
+.add-friend-button:active {
+  opacity: 0.65;
+}
