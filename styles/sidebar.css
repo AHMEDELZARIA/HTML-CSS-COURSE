@@ -1,41 +1,84 @@
-.sidebar {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  top: 55px;
-  background-color: white;
-  width: 72px;
-  z-index: 200;
-  padding-top: 5px;
+@media (max-width: 1200px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+  }
+  
+  .sidebar-link {
+    height: 74px;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.25s;
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgb(239, 239, 239);
+  }
+  
+  .sidebar-link:active {
+    background-color: rgb(226, 226, 226);
+  }
+  
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 5px ;
+  }
+  
+  .sidebar-link div {
+    font-size: 9px;
+  }
 }
 
-.sidebar-link {
-  height: 74px;
-  border-radius: 5px;
-  margin-left: 4px;
-  margin-right: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: background-color 0.25s;
-}
+@media (min-width: 1200.1px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 240px;
+    z-index: 200;
+    padding-top: 13px;
+  }
 
-.sidebar-link:hover {
-  background-color: rgb(239, 239, 239);
-}
+  .sidebar-link {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 8px 24px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.25s;
+  }
 
-.sidebar-link:active {
-  background-color: rgb(226, 226, 226);
-}
+  .sidebar-link:hover {
+    background-color: rgb(239, 239, 239);
+  }
+  
+  .sidebar-link:active {
+    background-color: rgb(226, 226, 226);
+  }
 
-.sidebar-link img {
-  height: 24px;
-  margin-bottom: 5px ;
-}
-
-.sidebar-link div {
-  font-family: Roboto, Arial;
-  font-size: 9px;
+  .sidebar-link img {
+    height: 24px;
+    margin-right: 18px ;
+  }
+  
+  .sidebar-link div {
+    font-size: 14px;
+  }
 }
